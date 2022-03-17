@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "es2016",
+		"lib": ["es2016", "esnext.asynciterable", "dom", "es2019"],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"declaration": false,
+		"esModuleInterop": true,
+		"outDir": "dist",
+		"typeRoots": ["node_modules/@types"],
+		"types": ["node"],
+		"baseUrl": "src/",
+		"noUnusedLocals": true
+	},
+	"include": ["src/**/*.ts", "server.ts", "scripts/**/*.ts"],
+	"exclude": ["node_modules", "lib"]
+}
